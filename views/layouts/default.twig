@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html {{ function('language_attributes') }}>
+
+<head>
+    <meta charset="{{ function('bloginfo', 'charset') }}">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0" name="viewport">
+    {% include "favicon.twig" %}
+    {{ function('wp_head') }}
+</head>
+
+<body {{ function('body_class') }}>
+    {% include "components/header.twig" %}
+    <main class="main">
+        {% block main %}{% endblock %}
+    </main>
+    {% include "components/footer.twig" %}
+    </div>
+    {{ function('wp_footer') }}
+</body>
+
+</html>

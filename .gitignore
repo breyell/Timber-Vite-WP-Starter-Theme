@@ -1,0 +1,7 @@
+.env
+.DS_Store
+/dist
+/localhost.pem
+/localhost-key.pem
+/node_modules
+/vendor

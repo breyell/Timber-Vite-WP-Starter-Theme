@@ -1,0 +1,11 @@
+{
+    "require": {
+        "timber/timber": "2.0.0-rc.1",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
